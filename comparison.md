@@ -6,10 +6,11 @@ Lizel Potgieter
 ## Libraries and organisation
 
 ``` r
+#if you don't have pacman, uncomment next line
 #install.packages("pacman")
 
 pacman::p_load(here,
-               tidyverse, # everything else
+               tidyverse,
                UpSetR,
                reshape2)
 ```
