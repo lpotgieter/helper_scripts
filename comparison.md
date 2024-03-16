@@ -15,10 +15,8 @@ pacman::p_load(here,
 ```
 
 ``` r
-here::i_am("isr2.Rmd")
+here::i_am("comparison.md")
 ```
-
-    ## here() starts at C:/Users/llpo0001/Documents/slubi/4_treponema
 
 ## Logic
 
@@ -361,7 +359,9 @@ for (sample_name in names(df_list)) {
 }
 ```
 
-![](isr2_files/figure-gfm/unnamed-chunk-9-1.png)<!-- -->![](isr2_files/figure-gfm/unnamed-chunk-9-2.png)<!-- -->![](isr2_files/figure-gfm/unnamed-chunk-9-3.png)<!-- -->![](isr2_files/figure-gfm/unnamed-chunk-9-4.png)<!-- -->![](isr2_files/figure-gfm/unnamed-chunk-9-5.png)<!-- -->![](isr2_files/figure-gfm/unnamed-chunk-9-6.png)<!-- -->![](isr2_files/figure-gfm/unnamed-chunk-9-7.png)<!-- -->![](isr2_files/figure-gfm/unnamed-chunk-9-8.png)<!-- -->![](isr2_files/figure-gfm/unnamed-chunk-9-9.png)<!-- -->![](isr2_files/figure-gfm/unnamed-chunk-9-10.png)<!-- -->![](isr2_files/figure-gfm/unnamed-chunk-9-11.png)<!-- -->![](isr2_files/figure-gfm/unnamed-chunk-9-12.png)<!-- -->![](isr2_files/figure-gfm/unnamed-chunk-9-13.png)<!-- -->![](isr2_files/figure-gfm/unnamed-chunk-9-14.png)<!-- -->![](isr2_files/figure-gfm/unnamed-chunk-9-15.png)<!-- -->![](isr2_files/figure-gfm/unnamed-chunk-9-16.png)<!-- -->![](isr2_files/figure-gfm/unnamed-chunk-9-17.png)<!-- -->![](isr2_files/figure-gfm/unnamed-chunk-9-18.png)<!-- -->![](isr2_files/figure-gfm/unnamed-chunk-9-19.png)<!-- -->![](isr2_files/figure-gfm/unnamed-chunk-9-20.png)<!-- -->![](isr2_files/figure-gfm/unnamed-chunk-9-21.png)<!-- -->![](isr2_files/figure-gfm/unnamed-chunk-9-22.png)<!-- -->![](isr2_files/figure-gfm/unnamed-chunk-9-23.png)<!-- -->![](isr2_files/figure-gfm/unnamed-chunk-9-24.png)<!-- -->![](isr2_files/figure-gfm/unnamed-chunk-9-25.png)<!-- -->![](isr2_files/figure-gfm/unnamed-chunk-9-26.png)<!-- -->![](isr2_files/figure-gfm/unnamed-chunk-9-27.png)<!-- -->![](isr2_files/figure-gfm/unnamed-chunk-9-28.png)<!-- -->![](isr2_files/figure-gfm/unnamed-chunk-9-29.png)<!-- -->![](isr2_files/figure-gfm/unnamed-chunk-9-30.png)<!-- -->![](isr2_files/figure-gfm/unnamed-chunk-9-31.png)<!-- -->![](isr2_files/figure-gfm/unnamed-chunk-9-32.png)<!-- -->![](isr2_files/figure-gfm/unnamed-chunk-9-33.png)<!-- -->![](isr2_files/figure-gfm/unnamed-chunk-9-34.png)<!-- -->![](isr2_files/figure-gfm/unnamed-chunk-9-35.png)<!-- -->![](isr2_files/figure-gfm/unnamed-chunk-9-36.png)<!-- -->![](isr2_files/figure-gfm/unnamed-chunk-9-37.png)<!-- -->
+``` r
+upset(Tx_upset, nsets =4)
+```
 
 ## Conclusion
 
